@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mutezebra.github.io/sitemap.xml

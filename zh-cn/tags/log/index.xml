@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Log on mutezebra`s blog</title><link>https://mutezebra.github.io/zh-cn/tags/log/</link><description>Recent content in Log on mutezebra`s blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2024 mutezebra</copyright><lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mutezebra.github.io/zh-cn/tags/log/index.xml" rel="self" type="application/rss+xml"/><item><title>在Go语言中如何更详细地处理与包装错误</title><link>https://mutezebra.github.io/zh-cn/docs/how-to-handle-and-wrap-errors-with-more-detail-in-golang/</link><pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate><guid>https://mutezebra.github.io/zh-cn/docs/how-to-handle-and-wrap-errors-with-more-detail-in-golang/</guid><description>&lt;h2 class="relative group">1.Go语言中的错误处理基础
+&lt;div id="1go%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86%E5%9F%BA%E7%A1%80" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#1go%E8%AF%AD%E8%A8%80%E4%B8%AD%E7%9A%84%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86%E5%9F%BA%E7%A1%80" aria-label="锚点">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>在go语言中，我们使用&lt;code>error&lt;/code>接口来处理错误，error接口的定义十分简单，只需要包含有 &lt;strong>Error() string&lt;/strong> 方法即可。但如何从一层一层的程序中详细完整的传递，记录错误，以及如何去方便快捷的找到错误根源，显然是一个难点。本文就针对这个难点来发表一些浅薄的个人见解。（注：本文更注重于表述个人见解，如若对您有帮助，更建议结合个人项目搭建错误处理与日志体系）&lt;/p></description></item></channel></rss>
